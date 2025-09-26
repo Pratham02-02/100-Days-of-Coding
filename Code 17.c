@@ -4,11 +4,11 @@
 #include <stdio.h>
 
 int main() {
-    double a, b, c;
-    double discriminant;
+    float a, b, c;
+    float discriminant;
 
     printf("Enter coefficients a, b and c");
-    scanf("%lf %lf %lf", &a, &b, &c);
+    scanf("%f %f %f", &a, &b, &c);
 
     if (a == 0) {
         printf("This is not a quadratic equation\n");
@@ -27,4 +27,5 @@ int main() {
     }
     return 0;
 }
+
 
